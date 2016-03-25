@@ -4,6 +4,7 @@
   * `webpack`, `webpack-dev-server`, `karma-cli` must be installed globally
 * `npm test` to run unit tests
 * `npm run run_dev` to start a dev env
+  * Visit http://localhost:8080/index-en_US.html to see the demo
 * `npm run build_production` to build a production ready package
 
 Note that you may need to install a advanced Node.js version， `5.6.0` is used in my local machine.
