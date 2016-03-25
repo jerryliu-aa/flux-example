@@ -117,8 +117,9 @@ module.exports.getters = {
     return state.get('selectedCountryIds').toJS();
   },
   selectedCountryNames: (state) => {
-    return state.get('selectedCountryIds').map((id) => {
+    var names = state.get('selectedCountryIds').map((id) => {
       return state.getIn(['allCountries', id, 'name']);
     }).toJS();
+    .join(', ');
   }
 }
